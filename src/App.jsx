@@ -20,8 +20,8 @@ function App() {
 
   return (
     <div className='w-full h-screen text-white px-8'>
-      <nav className='w-full p-3 flex justify-between items-center'>
-        <h1 className='font-bold tracking-wide md:text-3xl text-2xl border-4 px-3 rounded-md bg-black py-1 border-black shadow-md shadow-white'>Weather App</h1>
+      <nav className='w-full p-3 flex justify-between items-center gap-2'>
+        <h1 className='font-bold tracking-wide md:text-3xl text-xl border-4 px-3 rounded-md bg-black py-1 border-black shadow-md shadow-white'>Weather</h1>
         <div className='bg-white w-36 md:w-72 overflow-hidden shadow-2xl rounded flex items-center p-2 gap-2'>
           <img src={search} alt="search" className='w-[1.5rem] h-[1.5rem]' />
           <input
